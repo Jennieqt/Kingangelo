@@ -1,0 +1,26 @@
+h1 {
+    font-size: 35px;
+    color: antiquewhite;
+}
+
+ol {
+    font-style: italic;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+body {
+    background-image: url(./blackpink-4k-g5-1920x1080.jpg);
+}
+li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: center;
+}

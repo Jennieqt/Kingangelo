@@ -1,0 +1,251 @@
+*
+body {
+    background-image: url(./archon-arrival.png);
+    animation: change 10s ease-in-out infinite;
+    background-size: cover;
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+#hover::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s
+}
+#hover:hover::after{
+    width: 100%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: center;
+}
+ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: aqua;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+ul li:hover::after{
+    width: 100%;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.box input[type="submit"]{
+    border: 0;
+        background-color: rgb(21, 149, 199);
+        display: block;
+        margin: 0px auto;
+        border: 3px solid #0367fd;
+        padding: 10px 10px;
+        color: white;
+        outline: none;
+        border-radius: 24px;
+        transition: 0.25px;
+        cursor: pointer;
+}
+#username{  
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px auto;
+    border: 3px solid #0367fd;
+    padding: 10px 7px;
+    color: white;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25px;
+    }
+#password {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 3px auto;
+    border: 3px solid #0367fd;
+    padding: 10px 7px;
+    color: white;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+#users{
+    font-style: italic;
+}
+#function{
+    color: #fff;
+    font-size: 20px;
+
+}
+tr{
+    height: 150px;
+}
+.box{
+    width: 200px;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    border: 2px solid #A55C1B;
+}
+table{
+    width: 100%;
+    border: 2px solid #A55C1B;
+    border-collapse: collapse;
+    }
+th{
+    border: 2px solid #A55C1B;
+    border-collapse: collapse;
+    }
+td{
+    border: 2px solid #A55C1B;
+    border-collapse: collapse;
+    font-size: 20px;
+    color: whitesmoke;
+    font-style: italic;
+}
+.small{
+    font-size: 15px;
+    font-style: normal;
+    color: #fff;
+
+}
+#themechange2{
+    float: right;
+}
+.design {
+font-size: 20px;
+color: lightgrey; 
+    }
+
+.announce {
+font-size: 30px;
+color: lightgrey;
+text-indent: 5px;
+}
+
+.add {
+font-size: 20px;
+color: lightgrey;
+}
+
+.desc {
+text-align: left;
+color: gray;
+font-style: bold;
+}
+h1{
+    font-size: 50px;
+    color: #A55C1B;
+    font-style: italic;
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+    color: #A55C1B;
+}
+.hellaw{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.hellaw2{
+    font-size: 9px;
+    text-align: center;
+    color: #fff;
+    word-spacing: 1%;
+    text-indent: 5%;
+}
+#bottom{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+#bottom2{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.design3{
+    color: #fff;
+    font-size: 15px;
+    display: contents;
+}
+pre{
+    color: whitesmoke;
+    font-size: 15px;
+}
+#email{
+    color: #fff;
+    text-decoration: none;
+}
+#phone {
+    color: #fff;
+    text-decoration: none;
+}
+#bottom2{
+    font-size: 15px;    
+    color: whitesmoke;
+}
+#edit1{
+    color: black;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px black, 0 0 80px black, 0 0 90px black;
+}
+.footer{
+    
+    text-align: center;
+}
+#footer2{
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ff, 0 0 80px #0ff, 0 0 90px #0ff;
+}
+#div1{
+    float: right;
+    position: relative;
+    right: 70px;
+}
+#div2{
+    float: left;
+    position: relative;
+    left: 70px;
+}
+#div3{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 32px;
+    margin: 0 auto;
+}   
+#class{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px black, 0 0 80px black, 0 0 90px black;
+
+}
+#themechange{
+    border: 3px solid #A55C1B;
+}

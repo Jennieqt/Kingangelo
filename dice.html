@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dice.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="dice-wrapper">
+            <img src="dice1.jpg" id="die-1">
+        </div>
+        <p id="total">Hellaw</p>
+        <label id="result"></label>
+        <button class="learn-more" onclick="roll(userGuess.value)">ROLL THE DICE</button>
+        <br><br>
+        <label>What's your guess?</label>
+        <input type="number" min="1" max="6" id="userGuess">
+    </div>
+    <script src="dice.js"></script>
+
+</body>
+
+</html>
